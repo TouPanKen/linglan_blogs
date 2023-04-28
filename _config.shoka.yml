@@ -1,0 +1,192 @@
+# https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/config/
+alternate: Re.TouPanKen
+
+# Assets
+statics: / #//fastly.jsdelivr.net/gh/amehime/shoka@latest/
+css: css
+js: js
+images: img
+darkmode: false # true
+auto_scroll: true # false
+# 是否显示页面加载动画 loading-cat
+loader:
+  start: true # 当初次打开页面时，显示加载动画
+  switch: false # tab 切换到其他页面时，显示加载动画
+fireworks:
+  enable: true # 是否启用s
+  color: # 烟花颜色
+    - "rgba(255,182,185,.9)"
+    - "rgba(250,227,217,.9)"
+    - "rgba(187,222,214,.9)"
+    - "rgba(138,198,209,.9)"
+    
+open_graph:
+  #twitter_id:
+  #google_plus:
+  #fb_admins:
+  #fb_app_id:
+
+font:
+  enable: true
+  # Font options:
+  # `external: true` will load this font family from `host` above.
+  # `family: Times New Roman`. Without any quotes.
+  # `size: x.x`. Use `em` as unit. Default: 1 (16px)
+
+  # Global font settings used for all elements inside <body>.
+  global:
+    external: true
+    family: Mulish
+    size:
+
+  # Font settings for alternate title.
+  logo:
+    external: true
+    family: Fredericka the Great
+    size: 3.5
+
+  # Font settings for site title.
+  title:
+    external: true
+    family: Noto Serif JP
+    size: 2.5
+
+  # Font settings for headlines (<h1> to <h6>).
+  headings:
+    external: true
+    family: Noto Serif SC
+    size:
+
+  # Font settings for posts.
+  posts:
+    external: true
+    family:
+
+  # Font settings for <code> and code blocks.
+  codes:
+    external: true
+    family: Inconsolata
+# project of https://www.iconfont.cn/
+# //at.alicdn.com/t/font_1832207_c8i9n1ulxlt.css => 1832207_c8i9n1ulxlt
+iconfont: "1832207_c8i9n1ulxlt"
+
+menu:
+  home: / || home
+  posts:
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
+  about: /about/ || user
+  friends: /friends/ || heart
+# 
+# Social Links
+# Usage: `Key: permalink || icon || color`
+# Key is the link label showing to end users.
+# Value before `||` delimiter is the target permalink,
+# secend value is the name of Font icon.
+social:
+  github: https://github.com/yusixian || github || "#191717"
+  #google: https://plus.google.com/yourname || google
+  # twitter: https://twitter.com/amehime || twitter || "#00aff0"
+  zhihu: https://www.zhihu.com/people/qi-jiu-en || zhihu || "#1e88e5"
+  music: https://music.163.com/#/user/home?id=361029804 || cloud-music || "#e60026"
+  # weibo: https://weibo.com/amehime || weibo || "#ea716e"
+  # about: https://about.me/amehime || address-card || "#3b5998"
+  email: mailto:cosine_yu@qq.com || envelope || "#55acd5"
+  #facebook: https://www.facebook.com/yourname || facebook
+  #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
+  #youtube: https://youtube.com/yourname || youtube
+  #instagram: https://instagram.com/yourname || instagram
+  #skype: skype:yourname?call|chat || skype
+  #douban: https://www.douban.com/people/yourname/ || douban
+sidebar:
+  # Sidebar Position.
+  position: left
+  #position: right
+  # Replace the default avatar image and set the url here.
+  avatar: avatar.jpg
+  
+widgets:
+  random_posts: true # 显示随机文章
+  recent_comments: true # 显示最近评论
+
+footer:
+  # Specify the date when the site was setup. If not defined, current year will be used.
+  since: 2020
+  # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+  count: true
+  powered: true
+
+post:
+  count: true
+
+# ---------------------------------------------------------------
+# Third Party Plugins & Services Settings
+# ---------------------------------------------------------------
+
+# Comments
+# Valine
+# For more information: https://valine.js.org, https://github.com/xCss/Valine
+# https://valine.js.org/quickstart.html
+# todo 要去LeanCloud改成你自己的 AppId Appkey
+valine:
+  appId: 9CEGXYkAoXLuNmZApT2zjVWL-MdYXbMMI #Your_appId
+  appKey: c2pa0tILcjtSlF6hBtGdl5yb #Your_appkey
+  placeholder: "1. 提问前请先仔细阅读本文档⚡\n2. 页面显示问题💥，请提供控制台截图📸或者您的测试网址\n3. 其他任何报错💣，请提供详细描述和截图📸，祝食用愉快💪" # Comment box placeholder
+  avatar: identicon # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
+  pageSize: 10 # Pagination size
+  lang: zh-CN
+  visitor: true # Article reading statistic
+  NoRecordIP: true # Whether to record the commenter IP
+  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  powerMode: true
+  tagMeta:
+    master: 主人
+    friend: 小伙伴
+    investor: 金主霸霸
+    visitor: 游客
+    admin: 管理员
+    waifu: 我老婆
+  tagColor:
+    master: "var(--color-orange)"
+    friend: "var(--color-aqua)"
+    investor: "var(--color-pink)"
+    visitor: "#855194"
+    admin: "#a77c59"
+    waifu: "#ed6ea0"
+  tagMember:
+    master:
+      # - hash of master@email.com
+      # - hash of master2@email.com
+    friend:
+      # - hash of friend@email.com
+      # - hash of friend2@email.com
+    investor:
+      # - hash of investor1@email.com
+    visitor:
+      # - hash of investor1@email.com
+    admin:
+      # - hash of admin@email.com
+    waifu:
+      # - hash of waifu@email.com
+
+# bgm
+audio:
+  - title: ❤️安利向
+    list:
+      - https://music.163.com/playlist?id=3036586237
+
+# Dependencies: https://github.com/amehime/hexo-renderer-multi-markdown-it
+pangu: true
+
+# ---------------------------------------------------------------
+# analytics & SEO Settings
+# ---------------------------------------------------------------
+
+
+# Disable Baidu transformation on mobile devices.
+disable_baidu_transformation: true
+
+# Automatically add external URL with Base64 encrypt & decrypt.
+exturl: true

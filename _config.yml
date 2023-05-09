@@ -4,8 +4,8 @@
 
 # Site
 title: 铃兰の博客
-subtitle: 嗨嗨嗨
-description: 愿岁并谢，与友长兮
+subtitle: 喵喵喵~
+description: Java开发菜鸡
 keywords: java,Java,后端
 author: 铃兰
 language: zh-CN # 这里只可以选 zh-CN、zh-HK、zh-TW、ja、en 这几个格式
@@ -68,30 +68,68 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  随笔: life
 
-  笔试面经: review
-  笔试复盘: exam-record
-  面经: interview
+  后端: backend
+  Java: java
+  基础: foundation
+  集合: collection
+  反射: reflex
+  代理: proxy
+  I/O: io
+  并发编程: concurrent-programming
+  JUC: juc
+  JVM: jvm
+  Java新特性: new-java-features
+  计算机基础: computer-basics
+  数据库: database
+  MYSQL: mysql
+  Redis: redis
+  开发工具: development-tool
+  常用后端框架: common-backend-frameworks
+  系统设计: systems-design
+  分布式: distribution
+  高性能: high-performance
+  高可用: high-availability
+  重要的知识点: important-knowledge-points
+  源码分析: source-code-analysis
 
-  题目记录: coding-train
-  竞赛: contest
-  字节校园: bytedance
-  剑指offer: offer
-
-  项目集锦: project
-
-  笔记: note
-  青训营笔记: bytedance-note
-  算法: algorithm
-  后端: back-end
-  前端: front-end
+  前端: frontend
   JavaScript: javascript
   React: react
-  CS基础: cs-basics
+  Vue: vue
+  常用前端框架: common-frontend-frameworks
+
+  运维: operation
+  Docker: docker
+  K8S: k8s
+
+  面经: interview
+  笔试面经: review
+  笔试复盘: exam-record
+
+  算法: algorithm
+  题目记录: coding-train
+
   数据结构: data-structure
-  
-  工具: tools
+
+  学习经验: learning-experience
+  学习方法: learning-methods
+  如何学好一门新技术: learn-new-technologies
+  如何高效看学习视频: watch-videos
+  如何高效的搜索资料: search-for-information
+  学习建议: learning-suggestions
+  如何给自己制定学习目标和计划: goals-and-plans
+  如何应对焦虑、压力、不想学情绪: negative-impact
+
+  模板: template
+  文章模板: article-template
+  重要知识点模板: important-knowledge-point-template
+  源码分析模板: source-code-analysis-template
+  任务模板: task-Template
+  刷题模板: brush-question-template
+
+  常用工具: tools
+
 tag_map:
 
 # Metadata elements
@@ -217,5 +255,5 @@ feed:
 # todo 要换库地址
 deploy:
   type: git
-  repo: https://github.com/yusixian/yusixian.github.io.git # or https://gitee.com/<yourAccount>/<repo>
+  repo: https://github.com/Etpkeary/linglan_blogs.git # or https://gitee.com/<yourAccount>/<repo>
   branch: dev

@@ -139,7 +139,7 @@ valine:
   lang: zh-CN
   visitor: true # Article reading statistic
   NoRecordIP: true # Whether to record the commenter IP
-  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  serverURLs: https://9CEGXYkA.api.lncldglobal.com # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   powerMode: true
   tagMeta:
     master: 主人

@@ -13,7 +13,7 @@ css: css
 js: js
 images: img
 
-# themes/shoka/source/images/***
+# themes/shoka/source/img/***
 favicon:
   apple_touch_icon: /apple-touch-icon.png
   #safari_pinned_tab: /logo.svg

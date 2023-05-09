@@ -137,23 +137,23 @@ widgets:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  since: 2010
+  since: 2020
   icon:
     name: sakura rotate
     # Change the color of icon, using Hex Code.
     color: "#ffc0cb"
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-  count: false
+  count: true
   powered: true
 
 post:
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-  count: false
+  count: true
 
 # Reward (Donate)
 reward:
   # If true, reward will be displayed in every article by default.
-  enable: true
+  enable: false
   account:
     wechatpay: /wechatpay.png
     alipay: /alipay.png
@@ -184,52 +184,53 @@ creative_commons:
 
 # Comments
 # Valine
-# For more information: https://github.com/amehime/MiniValine
+# For more information: https://valine.js.org, https://github.com/xCss/Valine
+# https://valine.js.org/quickstart.html
+# todo 要去LeanCloud改成你自己的 AppId Appkey
 valine:
-  appId: RQIC7ghPyVAAUIKLlcy2A20t-gzGzoHsz #Your_appId
-  appKey: 6fcAYOOTDPSoCQRPtWJtyKYx #Your_appkey
-  placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
+  appId: f9z3JXwajM2f6r3v1J59QG8t-gzGzoHsz #Your_appId
+  appKey: av40C6tanHlAphtFI7yoaTWQ #Your_appkey
+  placeholder: "1. 提问前请先仔细阅读本文档⚡\n2. 页面显示问题💥，请提供控制台截图📸或者您的测试网址\n3. 其他任何报错💣，请提供详细描述和截图📸，祝食用愉快💪" # Comment box placeholder
   avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
   pageSize: 10 # Pagination size
   lang: zh-CN
   visitor: true # Article reading statistic
-  NoRecordIP: false # Whether to record the commenter IP
-  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  NoRecordIP: true # Whether to record the commenter IP
+  serverURLs: https://f9z3jxwa.lc-cn-n1-shared.com # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   powerMode: true
   tagMeta:
-    visitor: 新朋友
     master: 主人
     friend: 小伙伴
-    investor: 金主
+    investor: 金主霸霸
+    visitor: 游客
+    admin: 管理员
+    waifu: 我老婆
   tagColor:
     master: "var(--color-orange)"
     friend: "var(--color-aqua)"
     investor: "var(--color-pink)"
+    visitor: "#855194"
+    admin: "#a77c59"
+    waifu: "#ed6ea0"
   tagMember:
     master:
-      # - hash of master@email.com
-      # - hash of master2@email.com
+    # - hash of master@email.com
+    # - hash of master2@email.com
     friend:
-      # - hash of friend@email.com
-      # - hash of friend2@email.com
+    # - hash of friend@email.com
+    # - hash of friend2@email.com
     investor:
-      # - hash of investor1@email.com
+    # - hash of investor1@email.com
+    visitor:
+    # - hash of investor1@email.com
+    admin:
+    # - hash of admin@email.com
+    waifu:
+    # - hash of waifu@email.com
 
 # bgm
 
 audio:
-  - title: cos的2021年度歌单
-    list:
-      - https://music.163.com/playlist?id=7189274318
-  - title: cos的2020年度歌单
-    list:
-      - https://music.163.com/playlist?id=5400313492
-  - title: cos的2019年度歌单
-    list:
-      - https://music.163.com/playlist?id=3144460328
-  - title: ❤️安利向
-    list:
-      - https://music.163.com/playlist?id=3036586237
 
 # random image api
 image_server: # "https://acg.xydwz.cn/api/api.php"

@@ -2,7 +2,7 @@
 alternate: Re.TouPanKen
 
 # Assets
-statics: / #//fastly.jsdelivr.net/gh/amehime/shoka@latest/
+statics: /
 css: css
 js: js
 images: img
@@ -86,14 +86,14 @@ menu:
 # Value before `||` delimiter is the target permalink,
 # secend value is the name of Font icon.
 social:
-  github: https://github.com/yusixian || github || "#191717"
+  github: https://github.com/Etpkeary || github || "#191717"
   #google: https://plus.google.com/yourname || google
   # twitter: https://twitter.com/amehime || twitter || "#00aff0"
-  zhihu: https://www.zhihu.com/people/qi-jiu-en || zhihu || "#1e88e5"
-  music: https://music.163.com/#/user/home?id=361029804 || cloud-music || "#e60026"
   # weibo: https://weibo.com/amehime || weibo || "#ea716e"
   # about: https://about.me/amehime || address-card || "#3b5998"
-  email: mailto:cosine_yu@qq.com || envelope || "#55acd5"
+  telegram: https://t.me/toupankenbot || fa-telegram || "#3b5998"
+  email: mailto:quqquqquq@outlook.com || envelope || "#55acd5"
+#  telegram：https://t.me/toupankenbot
   #facebook: https://www.facebook.com/yourname || facebook
   #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
   #youtube: https://youtube.com/yourname || youtube
